@@ -5,31 +5,32 @@
 ### Configuración inicial de Git
 ```bash
 git config --global user.name "Tu Nombre"
-git config --global user.email "tuemail@example.com"```
+git config --global user.email "tuemail@example.com"
+```
 
 ### Crear un nuevo repositorio local
 ```bash
 mkdir nombre-del-proyecto
 cd nombre-del-proyecto
-git init```
-
-###Añadir archivos al repositorio
+git init
+```
+### Añadir archivos al repositorio
 ```bash
 git add .
 ```
-###Hacer un commit
+### Hacer un commit
 ```bash
 git commit -m "Mensaje descriptivo de los cambios"
 ```
-###Conectar con un repositorio remoto
+### Conectar con un repositorio remoto
 ```bash
 git remote add origin https://github.com/tuusuario/nombre-del-repo.git
 ```
-###Enviar los cambios al repositorio remoto
+### Enviar los cambios al repositorio remoto
 ```bash
 git push -u origin master
 ```
-###Flujo de trabajo típico
+### Flujo de trabajo típico
 - Realizar cambios en los archivos: Edita, añade o elimina archivos en tu proyecto.
 
 - Añadir archivos al área de preparación:
@@ -45,33 +46,33 @@ git commit -m "Descripción de los cambios"
 git push
 ```
 
-##Otros comandos útiles
+## Otros comandos útiles
 
-###Ver el estado del repositorio:
+### Ver el estado del repositorio:
 ```bash
 git status
 ```
-###Ver el historial de commits:
+### Ver el historial de commits:
 ```bash
 git log
 ```
-###Clonar un repositorio remoto:
+### Clonar un repositorio remoto:
 ```bash
 git clone https://github.com/tuusuario/nombre-del-repo.git
 ```
-###Crear y cambiar a una nueva rama:
+### Crear y cambiar a una nueva rama:
 ```bash
 git checkout -b nombre-de-la-rama
 ```
-###Cambiar a una rama existente
+### Cambiar a una rama existente
 ```bash
 git checkout nombre-de-la-rama
 ```
-###Combinar una rama con la rama actual:
+### Combinar una rama con la rama actual:
 ```bash
 git merge nombre-de-la-rama
 ```
-###Eliminar una rama:
+### Eliminar una rama:
 ```bash
 git branch -d nombre-de-la-rama
 ```
